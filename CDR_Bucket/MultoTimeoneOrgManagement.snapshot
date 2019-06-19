@@ -1,0 +1,1148 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "4b34ad02-6a83-3dc5-a228-7637796d74b4",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "f0edc838-988d-3a82-be51-ff1deeebd5ba",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "d2ed4619-4aae-3d97-b0ac-ced31b9685b2",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 1281.4999771118164,
+            "y" : 80.59849548339844
+          }, {
+            "x" : 1281.4999771118164,
+            "y" : 130.59849548339844
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "4b34ad02-6a83-3dc5-a228-7637796d74b4",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "8ffbf580-6ffc-3453-a3d3-73fd26a18aa5",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "4b34ad02-6a83-3dc5-a228-7637796d74b4",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "d2ed4619-4aae-3d97-b0ac-ced31b9685b2",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "370e4c3c-9b37-3dd0-8de8-d865a194f228",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "bed79de7-5b2f-343a-ac3f-93bf21d6ec49",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "c5731e93-fc67-321d-8937-a0b1c653c27b",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "aeb9d5a8-d06a-36b2-b86a-9113a87318c0",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "316f041e-3cff-358e-afe5-aa53709539f4",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "d7dbf924-72f0-32fb-b6e2-e14c5053ad9e",
+            "name" : "PutFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "7f17750a-a2bf-35ac-891f-197375b8cd4d",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "referenceTimeCrossed" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "7a5cd1af-bd19-3b03-91cc-c86ff1c67ca6",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "56df4604-ec0c-3f9a-9e78-be8919ecd88f",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "547c6c82-c4d0-330f-a24f-1417e38e687e",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "c5731e93-fc67-321d-8937-a0b1c653c27b",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "7a5cd1af-bd19-3b03-91cc-c86ff1c67ca6",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "5706ad2f-9ef2-39ac-a22b-acebcf0e6b50",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "d2ed4619-4aae-3d97-b0ac-ced31b9685b2",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "fb95f892-8e40-3cc7-9361-e74c2d127023",
+            "name" : "PutFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "b4a0013d-8076-3829-9d35-5add7fc1b02f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "referenceTimeCrossed" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "56df4604-ec0c-3f9a-9e78-be8919ecd88f",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "db720742-cdb0-3cf1-ae74-fe306a815ae8",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "04c1f795-4232-3fbe-81cf-7ce7713ea79f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "c5731e93-fc67-321d-8937-a0b1c653c27b",
+            "name" : "ExecuteGroovyScript",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 2462.5000292172285,
+            "y" : 34.59846748270775
+          }, {
+            "x" : 2462.5000292172285,
+            "y" : 84.59846748270775
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "db720742-cdb0-3cf1-ae74-fe306a815ae8",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "d6332f5a-fac8-3ab6-9b13-32b3053a3365",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "02193c58-3986-3f09-b246-84b75716b025",
+            "id" : "db720742-cdb0-3cf1-ae74-fe306a815ae8",
+            "name" : "FetchDistributedMapCache",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
+        "controllerServices" : [ {
+          "bundle" : {
+            "artifact" : "nifi-distributed-cache-services-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "CONTROLLER_SERVICE",
+          "controllerServiceApis" : [ {
+            "bundle" : {
+              "artifact" : "nifi-standard-services-api-nar",
+              "group" : "org.apache.nifi",
+              "version" : "1.8.0"
+            },
+            "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
+          }, {
+            "bundle" : {
+              "artifact" : "nifi-standard-services-api-nar",
+              "group" : "org.apache.nifi",
+              "version" : "1.8.0"
+            },
+            "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
+          } ],
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "2779b43c-1079-3fb4-acee-3c485d59490c",
+          "name" : "DistributedMapCacheClientService",
+          "properties" : {
+            "Server Port" : "4557",
+            "Server Hostname" : "localhost",
+            "Communications Timeout" : "30 secs"
+          },
+          "propertyDescriptors" : {
+            "SSL Context Service" : {
+              "displayName" : "SSL Context Service",
+              "identifiesControllerService" : true,
+              "name" : "SSL Context Service",
+              "sensitive" : false
+            },
+            "Server Port" : {
+              "displayName" : "Server Port",
+              "identifiesControllerService" : false,
+              "name" : "Server Port",
+              "sensitive" : false
+            },
+            "Server Hostname" : {
+              "displayName" : "Server Hostname",
+              "identifiesControllerService" : false,
+              "name" : "Server Hostname",
+              "sensitive" : false
+            },
+            "Communications Timeout" : {
+              "displayName" : "Communications Timeout",
+              "identifiesControllerService" : false,
+              "name" : "Communications Timeout",
+              "sensitive" : false
+            }
+          },
+          "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClientService"
+        } ],
+        "funnels" : [ ],
+        "identifier" : "02193c58-3986-3f09-b246-84b75716b025",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "TimeZoneTestMultiOrg",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 214.25279235839844,
+          "y" : -223.20638275146484
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "failure", "permission.denied", "not.found" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "e217b1a8-d38b-3228-b846-86e48c310215",
+          "name" : "FetchFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : -22.999969482421875,
+            "y" : 10.0
+          },
+          "properties" : {
+            "Move Conflict Strategy" : "Rename",
+            "Log level when file not found" : "ERROR",
+            "Log level when permission denied" : "ERROR",
+            "File to Fetch" : "C:\\Users\\jrahano\\Desktop\\OrgConfig.txt",
+            "Completion Strategy" : "None"
+          },
+          "propertyDescriptors" : {
+            "Move Conflict Strategy" : {
+              "displayName" : "Move Conflict Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Move Conflict Strategy",
+              "sensitive" : false
+            },
+            "Log level when file not found" : {
+              "displayName" : "Log level when file not found",
+              "identifiesControllerService" : false,
+              "name" : "Log level when file not found",
+              "sensitive" : false
+            },
+            "Move Destination Directory" : {
+              "displayName" : "Move Destination Directory",
+              "identifiesControllerService" : false,
+              "name" : "Move Destination Directory",
+              "sensitive" : false
+            },
+            "Log level when permission denied" : {
+              "displayName" : "Log level when permission denied",
+              "identifiesControllerService" : false,
+              "name" : "Log level when permission denied",
+              "sensitive" : false
+            },
+            "File to Fetch" : {
+              "displayName" : "File to Fetch",
+              "identifiesControllerService" : false,
+              "name" : "File to Fetch",
+              "sensitive" : false
+            },
+            "Completion Strategy" : {
+              "displayName" : "Completion Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Completion Strategy",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.FetchFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "not-found", "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "4b34ad02-6a83-3dc5-a228-7637796d74b4",
+          "name" : "FetchDistributedMapCache",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 818.4999771118164,
+            "y" : 40.59849548339844
+          },
+          "properties" : {
+            "Cache Entry Identifier" : "aAsia/Kolkata2019-06-12",
+            "Put Cache Value In Attribute" : "todaysVal",
+            "Distributed Cache Service" : "2779b43c-1079-3fb4-acee-3c485d59490c",
+            "Max Length To Put In Attribute" : "256",
+            "Character Set" : "UTF-8"
+          },
+          "propertyDescriptors" : {
+            "Cache Entry Identifier" : {
+              "displayName" : "Cache Entry Identifier",
+              "identifiesControllerService" : false,
+              "name" : "Cache Entry Identifier",
+              "sensitive" : false
+            },
+            "Put Cache Value In Attribute" : {
+              "displayName" : "Put Cache Value In Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Put Cache Value In Attribute",
+              "sensitive" : false
+            },
+            "Distributed Cache Service" : {
+              "displayName" : "Distributed Cache Service",
+              "identifiesControllerService" : true,
+              "name" : "Distributed Cache Service",
+              "sensitive" : false
+            },
+            "Max Length To Put In Attribute" : {
+              "displayName" : "Max Length To Put In Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Max Length To Put In Attribute",
+              "sensitive" : false
+            },
+            "Character Set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "Character Set",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.FetchDistributedMapCache",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "not-found", "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "db720742-cdb0-3cf1-ae74-fe306a815ae8",
+          "name" : "FetchDistributedMapCache",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1999.5000292172285,
+            "y" : -5.401532517292253
+          },
+          "properties" : {
+            "Cache Entry Identifier" : "2019-06-073",
+            "Put Cache Value In Attribute" : "todaysVal",
+            "Distributed Cache Service" : "2779b43c-1079-3fb4-acee-3c485d59490c",
+            "Max Length To Put In Attribute" : "256",
+            "Character Set" : "UTF-8"
+          },
+          "propertyDescriptors" : {
+            "Cache Entry Identifier" : {
+              "displayName" : "Cache Entry Identifier",
+              "identifiesControllerService" : false,
+              "name" : "Cache Entry Identifier",
+              "sensitive" : false
+            },
+            "Put Cache Value In Attribute" : {
+              "displayName" : "Put Cache Value In Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Put Cache Value In Attribute",
+              "sensitive" : false
+            },
+            "Distributed Cache Service" : {
+              "displayName" : "Distributed Cache Service",
+              "identifiesControllerService" : true,
+              "name" : "Distributed Cache Service",
+              "sensitive" : false
+            },
+            "Max Length To Put In Attribute" : {
+              "displayName" : "Max Length To Put In Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Max Length To Put In Attribute",
+              "sensitive" : false
+            },
+            "Character Set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "Character Set",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.FetchDistributedMapCache",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "success", "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "fb95f892-8e40-3cc7-9361-e74c2d127023",
+          "name" : "PutFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1400.0000292172285,
+            "y" : 380.0000006095388
+          },
+          "properties" : {
+            "Create Missing Directories" : "true",
+            "Directory" : "C:\\Users\\jrahano\\Desktop\\NifiTest",
+            "Conflict Resolution Strategy" : "fail"
+          },
+          "propertyDescriptors" : {
+            "Group" : {
+              "displayName" : "Group",
+              "identifiesControllerService" : false,
+              "name" : "Group",
+              "sensitive" : false
+            },
+            "Owner" : {
+              "displayName" : "Owner",
+              "identifiesControllerService" : false,
+              "name" : "Owner",
+              "sensitive" : false
+            },
+            "Create Missing Directories" : {
+              "displayName" : "Create Missing Directories",
+              "identifiesControllerService" : false,
+              "name" : "Create Missing Directories",
+              "sensitive" : false
+            },
+            "Permissions" : {
+              "displayName" : "Permissions",
+              "identifiesControllerService" : false,
+              "name" : "Permissions",
+              "sensitive" : false
+            },
+            "Maximum File Count" : {
+              "displayName" : "Maximum File Count",
+              "identifiesControllerService" : false,
+              "name" : "Maximum File Count",
+              "sensitive" : false
+            },
+            "Last Modified Time" : {
+              "displayName" : "Last Modified Time",
+              "identifiesControllerService" : false,
+              "name" : "Last Modified Time",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            },
+            "Conflict Resolution Strategy" : {
+              "displayName" : "Conflict Resolution Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Conflict Resolution Strategy",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.PutFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "unmatched" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "7a5cd1af-bd19-3b03-91cc-c86ff1c67ca6",
+          "name" : "RouteOnAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 987.0,
+            "y" : 316.0000305175781
+          },
+          "properties" : {
+            "Routing Strategy" : "Route to Property name",
+            "referenceTimeCrossed" : "${isReferenceTimeCrossed:equalsIgnoreCase('yes')}"
+          },
+          "propertyDescriptors" : {
+            "Routing Strategy" : {
+              "displayName" : "Routing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Routing Strategy",
+              "sensitive" : false
+            },
+            "referenceTimeCrossed" : {
+              "displayName" : "referenceTimeCrossed",
+              "identifiesControllerService" : false,
+              "name" : "referenceTimeCrossed",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-groovyx-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "d2ed4619-4aae-3d97-b0ac-ced31b9685b2",
+          "name" : "ExecuteGroovyScript",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 368.0,
+            "y" : 235.09854125976562
+          },
+          "properties" : {
+            "groovyx-failure-strategy" : "rollback",
+            "CTL.lastTimeStamp" : "2779b43c-1079-3fb4-acee-3c485d59490c",
+            "groovyx-script-file" : "C:\\Users\\jrahano\\Desktop\\createRowKeys.groovy"
+          },
+          "propertyDescriptors" : {
+            "groovyx-script-body" : {
+              "displayName" : "Script Body",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-body",
+              "sensitive" : false
+            },
+            "groovyx-failure-strategy" : {
+              "displayName" : "Failure strategy",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-failure-strategy",
+              "sensitive" : false
+            },
+            "groovyx-additional-classpath" : {
+              "displayName" : "Additional classpath",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-additional-classpath",
+              "sensitive" : false
+            },
+            "CTL.lastTimeStamp" : {
+              "displayName" : "CTL.lastTimeStamp",
+              "identifiesControllerService" : true,
+              "name" : "CTL.lastTimeStamp",
+              "sensitive" : false
+            },
+            "groovyx-script-file" : {
+              "displayName" : "Script File",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-file",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.groovyx.ExecuteGroovyScript",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "success", "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "d7dbf924-72f0-32fb-b6e2-e14c5053ad9e",
+          "name" : "PutFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 365.0,
+            "y" : 442.0000305175781
+          },
+          "properties" : {
+            "Create Missing Directories" : "true",
+            "Directory" : "C:\\Users\\jrahano\\Desktop\\NifiTest\\China",
+            "Conflict Resolution Strategy" : "fail"
+          },
+          "propertyDescriptors" : {
+            "Group" : {
+              "displayName" : "Group",
+              "identifiesControllerService" : false,
+              "name" : "Group",
+              "sensitive" : false
+            },
+            "Owner" : {
+              "displayName" : "Owner",
+              "identifiesControllerService" : false,
+              "name" : "Owner",
+              "sensitive" : false
+            },
+            "Create Missing Directories" : {
+              "displayName" : "Create Missing Directories",
+              "identifiesControllerService" : false,
+              "name" : "Create Missing Directories",
+              "sensitive" : false
+            },
+            "Permissions" : {
+              "displayName" : "Permissions",
+              "identifiesControllerService" : false,
+              "name" : "Permissions",
+              "sensitive" : false
+            },
+            "Maximum File Count" : {
+              "displayName" : "Maximum File Count",
+              "identifiesControllerService" : false,
+              "name" : "Maximum File Count",
+              "sensitive" : false
+            },
+            "Last Modified Time" : {
+              "displayName" : "Last Modified Time",
+              "identifiesControllerService" : false,
+              "name" : "Last Modified Time",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            },
+            "Conflict Resolution Strategy" : {
+              "displayName" : "Conflict Resolution Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Conflict Resolution Strategy",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.PutFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "failure" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-groovyx-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "c5731e93-fc67-321d-8937-a0b1c653c27b",
+          "name" : "ExecuteGroovyScript",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1403.0000292172285,
+            "y" : 173.0985113517263
+          },
+          "properties" : {
+            "groovyx-failure-strategy" : "rollback",
+            "CTL.lastTimeStamp" : "2779b43c-1079-3fb4-acee-3c485d59490c",
+            "groovyx-script-file" : "C:\\Project data\\CDR\\GroovieScripts\\TestingScript\\FetchTimezonedData.groovy"
+          },
+          "propertyDescriptors" : {
+            "groovyx-script-body" : {
+              "displayName" : "Script Body",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-body",
+              "sensitive" : false
+            },
+            "groovyx-failure-strategy" : {
+              "displayName" : "Failure strategy",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-failure-strategy",
+              "sensitive" : false
+            },
+            "groovyx-additional-classpath" : {
+              "displayName" : "Additional classpath",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-additional-classpath",
+              "sensitive" : false
+            },
+            "CTL.lastTimeStamp" : {
+              "displayName" : "CTL.lastTimeStamp",
+              "identifiesControllerService" : true,
+              "name" : "CTL.lastTimeStamp",
+              "sensitive" : false
+            },
+            "groovyx-script-file" : {
+              "displayName" : "Script File",
+              "identifiesControllerService" : false,
+              "name" : "groovyx-script-file",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.groovyx.ExecuteGroovyScript",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "unmatched" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "56df4604-ec0c-3f9a-9e78-be8919ecd88f",
+          "name" : "RouteOnAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 2022.0000292172285,
+            "y" : 254.0000006095388
+          },
+          "properties" : {
+            "Routing Strategy" : "Route to Property name",
+            "referenceTimeCrossed" : "${isReferenceTimeCrossed:equalsIgnoreCase('yes')}"
+          },
+          "propertyDescriptors" : {
+            "Routing Strategy" : {
+              "displayName" : "Routing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Routing Strategy",
+              "sensitive" : false
+            },
+            "referenceTimeCrossed" : {
+              "displayName" : "referenceTimeCrossed",
+              "identifiesControllerService" : false,
+              "name" : "referenceTimeCrossed",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "316f041e-3cff-358e-afe5-aa53709539f4",
+          "name" : "GenerateFlowFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 1407.0000292172285,
+            "y" : -24.000029908039267
+          },
+          "properties" : {
+            "character-set" : "UTF-8",
+            "File Size" : "0B",
+            "generate-ff-custom-text" : "Hi Form Nifi",
+            "clientName" : "b",
+            "Batch Size" : "1",
+            "Unique FlowFiles" : "false",
+            "timeZone" : "Africa/Casablanca,Europe/London,Africa/Monrovia,Europe/Amsterdam,Europe/Belgrade,Europe/Brussels,Europe/Sarajevo,Africa/Bangui,Asia/Amman,Europe/Athens,Asia/Beirut,Africa/Cairo,Africa/Johannesburg,Europe/Helsinki,Asia/Jerusalem,Europe/Minsk,Africa/Windhoek,Asia/Baghdad,Asia/Kuwait,Europe/Moscow,Africa/Nairobi,Asia/Tbilisi,Asia/Tehran,Asia/Dubai,Asia/Baku,Indian/Mauritius,Asia/Yerevan,Asia/Kabul,Asia/Yekaterinburg,Asia/Karachi,Asia/Oral,Asia/Kolkata,Asia/Colombo,Asia/Katmandu,Asia/Novosibirsk,Asia/Almaty,Asia/Rangoon,Asia/Rangoon,Asia/Krasnoyarsk,Asia/Shanghai,Asia/Irkutsk,Asia/Singapore,Australia/Perth,Asia/Taipei,Asia/Tokyo,Asia/Seoul,Asia/Yakutsk,Australia/Adelaide,Australia/Darwin,Australia/Brisbane,Australia/Sydney,Pacific/Guam,Australia/Hobart,Asia/Vladivostok,Pacific/Guadalcanal,Antarctica/McMurdo,Pacific/Fiji,Pacific/Tongatapu,Atlantic/Azores,Atlantic/Cape_Verde,Etc/GMT+2,America/Sao_Paulo,America/Buenos_Aires,America/Cayenne,America/Godthab,America/Montevideo,America/St_Johns,America/Halifax,America/La_Paz,America/Cuiaba,America/Santiago,America/Caracas,America/Bogota,America/New_York,America/Indianapolis,America/Guatemala,America/Chicago,America/Mexico_City,America/Regina,America/Phoenix,America/Chihuahua,America/Denver,America/Los_Angeles,America/Santa_Isabel,America/Anchorage,Pacific/Honolulu,Pacific/Apia,Etc/GMT+12,UTC",
+            "Data Format" : "Text"
+          },
+          "propertyDescriptors" : {
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
+              "sensitive" : false
+            },
+            "File Size" : {
+              "displayName" : "File Size",
+              "identifiesControllerService" : false,
+              "name" : "File Size",
+              "sensitive" : false
+            },
+            "generate-ff-custom-text" : {
+              "displayName" : "Custom Text",
+              "identifiesControllerService" : false,
+              "name" : "generate-ff-custom-text",
+              "sensitive" : false
+            },
+            "clientName" : {
+              "displayName" : "clientName",
+              "identifiesControllerService" : false,
+              "name" : "clientName",
+              "sensitive" : false
+            },
+            "Batch Size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "timeZone" : {
+              "displayName" : "timeZone",
+              "identifiesControllerService" : false,
+              "name" : "timeZone",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "30 min",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.8.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "02193c58-3986-3f09-b246-84b75716b025",
+          "identifier" : "bed79de7-5b2f-343a-ac3f-93bf21d6ec49",
+          "name" : "GenerateFlowFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 372.0,
+            "y" : 38.0
+          },
+          "properties" : {
+            "character-set" : "UTF-8",
+            "File Size" : "0B",
+            "generate-ff-custom-text" : "Hi Form Nifi",
+            "clientName" : "a",
+            "Batch Size" : "1",
+            "Unique FlowFiles" : "false",
+            "timeZone" : "Asia/Kolkata",
+            "Data Format" : "Text"
+          },
+          "propertyDescriptors" : {
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
+              "sensitive" : false
+            },
+            "File Size" : {
+              "displayName" : "File Size",
+              "identifiesControllerService" : false,
+              "name" : "File Size",
+              "sensitive" : false
+            },
+            "generate-ff-custom-text" : {
+              "displayName" : "Custom Text",
+              "identifiesControllerService" : false,
+              "name" : "generate-ff-custom-text",
+              "sensitive" : false
+            },
+            "clientName" : {
+              "displayName" : "clientName",
+              "identifiesControllerService" : false,
+              "name" : "clientName",
+              "sensitive" : false
+            },
+            "Batch Size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "timeZone" : {
+              "displayName" : "timeZone",
+              "identifiesControllerService" : false,
+              "name" : "timeZone",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "5 min",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      }
+    }
+  }
+}
