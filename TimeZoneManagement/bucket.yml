@@ -1,4 +1,7 @@
 flows:
+  cf5a40c0-24e5-4520-8b11-d19e7c185330: {ver: 1, file: TimeZone_Trigger.snapshot,
+    comments: '', author: anonymous, created: 1560972017140, flowName: TimeZone Trigger,
+    flowDesc: ''}
   884500fa-a95d-416a-94bc-949228346f17: {ver: 1, file: TimeZone_flow.snapshot, comments: '',
     author: anonymous, created: 1560970706160, flowName: TimeZone flow, flowDesc: ''}
 layoutVer: 1
